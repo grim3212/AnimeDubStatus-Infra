@@ -1,6 +1,7 @@
 # Anime Dub Status - Infra
 
-Contains the backend infrastructure for the Anime Dub Status website https://animedubstatus.com/
+Contains the backend infrastructure for the Anime Dub Status website https://animedubstatus.com/.
+Frontend source can be found at https://github.com/grim3212/AnimeDubStatus
 
 All the infrastructure is currently deployed to AWS and primarily driven via lambdas using `Python`.
 
