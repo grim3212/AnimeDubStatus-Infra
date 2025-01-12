@@ -1,6 +1,7 @@
 # Anime Dub Status - Infra
 
 Contains the backend infrastructure for the Anime Dub Status website https://animedubstatus.com/.
+
 Frontend source can be found at https://github.com/grim3212/AnimeDubStatus
 
 All the infrastructure is currently deployed to AWS and primarily driven via lambdas using `Python`.
@@ -9,11 +10,9 @@ All the infrastructure is currently deployed to AWS and primarily driven via lam
 
 ### Credits
 
-One of the Lambdas, `dubInfoDownloader` utilizes the `AGPL-3.0` licensed [dubInfo.json](https://github.com/MAL-Dubs/MAL-Dubs/blob/main/data/dubInfo.json) from [MAL-Dubs](https://github.com/MAL-Dubs/MAL-Dubs). Having this maintained was a huge relief. ⭐
-
-The `dubInfoDownloader` lambda also will parse the list of [currently airing anime](https://myanimelist.net/forum/?topicid=1692966) from MyAnimeList that [Kenny_Stryker](https://myanimelist.net/profile/Kenny_Stryker) maintains.
-
-The MyAnimeList API used extensively through the Python package [mal-api](https://pypi.org/project/mal-api/)
+- One of the Lambdas, `dubInfoDownloader` utilizes the `AGPL-3.0` licensed [dubInfo.json](https://github.com/MAL-Dubs/MAL-Dubs/blob/main/data/dubInfo.json) from [MAL-Dubs](https://github.com/MAL-Dubs/MAL-Dubs). Having this maintained was a huge relief. ⭐
+- The `dubInfoDownloader` lambda also will parse the list of [currently airing anime](https://myanimelist.net/forum/?topicid=1692966) from MyAnimeList that [Kenny_Stryker](https://myanimelist.net/profile/Kenny_Stryker) maintains.
+- The MyAnimeList API used extensively through the Python package [mal-api](https://pypi.org/project/mal-api/)
 
 ### Infrastructure
 
