@@ -1,5 +1,9 @@
 # Anime Dub Status - Infra
 
+> **Archived (October 2026).** The backend now lives in the main repo,
+> [grim3212/AnimeDubStatus](https://github.com/grim3212/AnimeDubStatus): one scheduled Lambda plus
+> an AWS CDK stack, deployed automatically from GitHub Actions. The Lambdas below are no longer used.
+
 Contains the backend infrastructure for the Anime Dub Status website https://animedubstatus.com/.
 
 Frontend source can be found at https://github.com/grim3212/AnimeDubStatus
